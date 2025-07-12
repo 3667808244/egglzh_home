@@ -1,0 +1,18 @@
+div#root>div.block div.center{
+    display: flex;
+    border: 2px solid rgb(108, 108, 108);
+    margin: 4px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+div#root>div.block img{
+    margin: 4px;
+}
+div#root>div.block#toos{
+    font-size: 8px;
+}
