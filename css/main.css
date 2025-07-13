@@ -55,6 +55,30 @@
     width: max-content;
     margin: 1px;
 }
+#root div.block h1 {
+    width: max-content;
+    margin: 1px;
+}
+#root div.block h2 {
+    width: max-content;
+    margin: 1px;
+}
+#root div.block h3 {
+    width: max-content;
+    margin: 1px;
+}
+#root div.block h4 {
+    width: max-content;
+    margin: 1px;
+}
+#root div.block h5 {
+    width: max-content;
+    margin: 1px;
+}
+#root div.block h6 {
+    width: max-content;
+    margin: 1px;
+}
 #root div.block a {
     width: max-content;
     margin: 1px;
