@@ -1,3 +1,4 @@
 This is my personal homepage.
 **RUN**
-Open "html/index.html" to run it.
+1.Downlaod the code for this project
+2.Open "html/index.html" to run it.
