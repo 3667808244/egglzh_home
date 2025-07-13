@@ -10,6 +10,7 @@
     <link rel="icon" href="../../img/icons/16px.png" type="image/png" sizes="16x16">
     <link rel="icon" href="../../img/icons/32px.png" type="image/png" sizes="32x32">
     <link rel="icon" href="../../img/icons/64px.png" type="image/png" sizes="64x64">
+    <script src="../../JavaScript/searcher.js"></script>
 </head>
 <body>
     <div id="root">
@@ -18,16 +19,17 @@
         </div>
         <div class="block" id="tools">
             <a href="../index.html" target="_parent">返回主页</a>
-            <p>目录（单击跳转）</p>
-            <div class="block" id="catalogue">
-                <a href="#25071201">2025年7月12日</a>
+            <div class="searcher">
+                <p>日志ID：</p>
+                <input type="text" placeholder="请输入日志ID" id="log_id">
+                <button onclick="">跳转</button>
             </div>
         </div>
         <!--id farmot : {yy}{mm}{dd}{log number}-->
         <!--dir farmot: ../../img/log/{yy}{mm}{dd}/{log number}{img number}-->
         <div class="block" id="25071201">
             <h3>一则闲谈</h3>
-            <p>ID:15071201</p>
+            <p>ID:25071201</p>
             <div class="center">
                 <p>我现在在学rust</p>
                 <img  width="103" height="62" src="../../img/log/250712/0101.png" alt="Ferris" title="rust吉祥物Ferris" loading="lazy">
