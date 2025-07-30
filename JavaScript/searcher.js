@@ -1,14 +1,14 @@
-function search_log() {
+function search() {
     console.log('search_log called');
-    const logId = document.getElementById('log_id').value.trim();
-    if (logId) {
-        const logElement = document.getElementById(logId);
-        if (logElement) {
-            logElement.scrollIntoView({ behavior: 'smooth' });
+    const Id = document.getElementById('log_id').value.trim();
+    if (Id) {
+        const Element = document.getElementById(Id);
+        if (Element) {
+            Element.scrollIntoView({ behavior: 'smooth' });
         } else {
-            alert('日志ID不存在');
+            alert('搜索项不存在');
         }
     } else {
-        alert('请输入日志ID');
+        alert('请输入搜索项');
     }
 }
