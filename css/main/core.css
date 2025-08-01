@@ -2,10 +2,10 @@ body{
     margin: 0;
 }
 
-div.sys#root{
+div.main#root{
     margin: 0;
     background-color: whitesmoke;
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -16,11 +16,11 @@ div.sys#root{
     padding-bottom: 32px;
 }
 
-div.sys#root * {
+div.main#root * {
     margin: 0;
 }
 
-div.sys#root div.bar{
+div.main#root div.bar{
     background-color: rgb(34, 34, 34);
     color: rgb(241, 241, 241);
     display: flex;
@@ -31,17 +31,17 @@ div.sys#root div.bar{
     padding: 5px;
 }
 
-div.sys#root div.bar>p.title{
+div.main#root div.bar>p.title{
     font-size: 48px;
     color: white;
 }
 
-div.sys#root div.bar>p.subtltle{
+div.main#root div.bar>p.subtltle{
     font-size: 32px;
     color: rgb(197, 197, 197);
 }
 
-div.sys#root div.block{
+div.main#root div.block{
     margin-top: 4px;
     margin-left: 7px;
     border-top: 8px solid rgb(108, 108, 108);
@@ -56,7 +56,7 @@ div.sys#root div.block{
     padding-left: 1px;
 }
 
-div.sys#root div.block *{
+div.main#root>div.block *{
     width: max-content;
     margin: 1px;
 }

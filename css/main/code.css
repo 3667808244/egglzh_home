@@ -1,0 +1,112 @@
+div.main#root>div.block code {
+    background-color: rgb(36, 36, 36);
+    margin: 4px;
+    padding: 4px;
+    font-family: '../font/JetBrainsMono-Italic', Consolas, 'Courier New', monospace;
+    color: white;
+    width: max-content;
+}
+
+div.main#root>div.block code.r {
+    background-color: rgb(116, 63, 63);
+}
+
+div.main#root>div.block code.g {
+    background-color: rgb(47, 92, 47);
+}
+
+div.main#root>div.block code.b {
+    background-color: rgb(38, 38, 85);
+}
+
+div.main#root>div.block code.y {
+    background-color: rgb(110, 110, 0);
+}
+
+div.main#root>div.block code.p {
+    background-color: rgb(90, 47, 90);
+}
+
+div.main#root>div.block code.c {
+    background-color: rgb(37, 103, 103);
+}
+
+div.main#root>div.block code.o {
+    background-color: rgb(99, 74, 30);
+}
+
+div.main#root>div.block code.ga {
+    background-color: rgb(56, 56, 56);
+}
+
+div.main#root>div.block code fc {
+    display: inline;
+}
+
+div.main#root>div.block code fc.r {
+    color: rgb(255, 142, 142);
+}
+
+div.main#root>div.block code fc.g {
+    color: rgb(123, 237, 123);
+}
+
+div.main#root>div.block code fc.b {
+    color: rgb(138, 138, 250);
+}
+
+div.main#root>div.block code fc.y {
+    color: rgb(255, 255, 131);
+}
+
+div.main#root>div.block code fc.p {
+    color: rgb(191, 106, 191);
+}
+
+div.main#root>div.block code fc.c {
+    color: rgb(134, 255, 255);
+}
+
+div.main#root>div.block code fc.o{
+    color: rgb(255, 203, 106);
+}
+
+div.main#root>div.block code fc.ga {
+    color: rgb(185, 185, 185);
+}
+
+div.main#root>div.block code bgc {
+    display: inline;
+}
+
+div.main#root>div.block code bgc.r {
+    background-color: rgba(255, 142, 142, 0.5);
+}
+
+div.main#root>div.block code bgc.g {
+    background-color: rgba(123, 237, 123, 0.5);
+}
+
+div.main#root>div.block code bgc.b {
+    background-color: rgba(138, 138, 250, 0.5);
+}
+
+div.main#root>div.block code bgc.y {
+    background-color: rgba(255, 255, 131, 0.5);
+}
+
+div.main#root>div.block code bgc.p {
+    background-color: rgba(191, 106, 191, 0.5);
+}
+
+div.main#root>div.block code bgc.c {
+    background-color: rgba(134, 255, 255, 0.5);
+}
+
+div.main#root>div.block code bgc.o {
+    background-color: rgba(255, 203, 106, 0.5);
+}
+
+div.main#root>div.block code bgc.ga {
+    background-color: rgba(185, 185, 185, 0.5);
+}
