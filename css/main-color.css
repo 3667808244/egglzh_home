@@ -1,0 +1,27 @@
+div#root div.code color.red {
+    color: rgb(255, 142, 142);
+}
+
+div#root div.code color.green {
+    color: rgb(123, 237, 123);
+}
+
+div#root div.code color.blue {
+    color: rgb(138, 138, 250);
+}
+
+div#root div.code color.yellow {
+    color: rgb(255, 255, 131);
+}
+
+div#root div.code color.purple {
+    color: rgb(191, 106, 191);
+}
+
+div#root div.code color.cyan {
+    color: rgb(134, 255, 255);
+}
+
+div#root div.code color.orange {
+    color: rgb(255, 203, 106);
+}

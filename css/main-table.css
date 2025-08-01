@@ -1,0 +1,17 @@
+#root>div.block table {
+    width: max-content;
+    margin: 1px;
+    padding: 4px;
+    border-collapse: collapse;
+}
+
+#root>div.block table th {
+    background-color: #f0f0f0;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+#root>div.block table td {
+    padding: 4px;
+    border: 1px solid #ccc;
+}
