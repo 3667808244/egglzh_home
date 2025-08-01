@@ -1,7 +1,5 @@
-*{ 
+div.sys#root{
     margin: 0;
-}
-div#root{
     background-color: whitesmoke;
     color: black;
     display: flex;
@@ -13,7 +11,12 @@ div#root{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 32px;
 }
-div#root div.bar{
+
+div.sys#root * {
+    margin: 0;
+}
+
+div.sys#root div.bar{
     background-color: rgb(34, 34, 34);
     color: rgb(241, 241, 241);
     display: flex;
@@ -23,22 +26,18 @@ div#root div.bar{
     align-items: stretch;
     padding: 5px;
 }
-div#root div.bar#header{
-    padding: 5px;
-}
-div#root div.bar>p.title{
+
+div.sys#root div.bar>p.title{
     font-size: 48px;
     color: white;
 }
-div#root div.bar>p.subtltle{
+
+div.sys#root div.bar>p.subtltle{
     font-size: 32px;
     color: rgb(197, 197, 197);
 }
-div#root div.bar>p.annotation{
-    font-size: 16px;
-    color: rgb(127, 127, 127);
-}
-div#root div.block{
+
+div.sys#root div.block{
     margin-top: 4px;
     margin-left: 4px;
     border-top: 8px solid rgb(108, 108, 108);
@@ -51,15 +50,8 @@ div#root div.block{
     justify-content: flex-start;
     font-size: 24px;
 }
-div#root div.block *{
+
+div.sys#root div.block *{
     width: max-content;
     margin: 1px;
-}
-div#root div.block div.code {
-    background-color: rgb(36, 36, 36);
-    margin: 4px;
-    padding: 4px;
-    font-family: '../font/JetBrainsMono-Italic', Consolas, 'Courier New', monospace;
-    color: white;
-    width: max-content;
 }

@@ -1,0 +1,36 @@
+div.sys#root div.block div.code {
+    background-color: rgb(36, 36, 36);
+    margin: 4px;
+    padding: 4px;
+    font-family: '../font/JetBrainsMono-Italic', Consolas, 'Courier New', monospace;
+    color: white;
+    width: max-content;
+}
+
+div.sys#root div.block div.code color.red {
+    color: rgb(255, 142, 142);
+}
+
+div.sys#root div.block div.code color.green {
+    color: rgb(123, 237, 123);
+}
+
+div.sys#root div.block div.code color.blue {
+    color: rgb(138, 138, 250);
+}
+
+div.sys#root div.block div.code color.yellow {
+    color: rgb(255, 255, 131);
+}
+
+div.sys#root div.block div.code color.purple {
+    color: rgb(191, 106, 191);
+}
+
+div.sys#root div.block div.code color.cyan {
+    color: rgb(134, 255, 255);
+}
+
+div.sys#root div.block div.code color.orange {
+    color: rgb(255, 203, 106);
+}

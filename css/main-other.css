@@ -1,4 +1,4 @@
-div#root div.searcher {
+div.sys#root div.searcher {
     margin: 2px;
     border: 2px solid rgb(79, 79, 79);
     padding: 4px;
@@ -11,10 +11,10 @@ div#root div.searcher {
     width: max-content;
 }
 
-div#root div.searcher>p {
+div.sys#root div.searcher>p {
     font-size: 6
 }
 
-div#root>div.kan_bu_jian_wo {
+div.sys#root>div.kan_bu_jian_wo {
     color: rgb(234, 234, 234);
 }
