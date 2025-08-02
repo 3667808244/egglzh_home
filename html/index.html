@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html lang="cn_zh">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>首页</title>
-        <link rel="stylesheet" href="../css/main/core.css" type="text/css">
-        <link rel="stylesheet" href="../css/main/other.css" type="text/css">
-        <link rel="icon" href="../img/icons/8px.png" type="image/png" sizes="8x8">
-        <link rel="icon" href="../img/icons/16px.png" type="image/png" sizes="16x16">
-        <link rel="icon" href="../img/icons/32px.png" type="image/png" sizes="32x32">
-        <link rel="icon" href="../img/icons/64px.png" type="image/png" sizes="64x64">
-    </head>
-    <body>
-        <!--root div-->
-        <div class="main" id="root">
-            <!--top bar-->
-            <div class="bar" id="header">
-                <p class="title">欢迎来到我的主页</p>
-                <p class="subtitle">by egglzh</p>
-            </div>
-            <div class="block" id="links">
-                <h3>一些链接</h3>
-                <a href="./pages/log.html">我的日志</a>
-                <a href="./pages/videos.html">我的视频</a>
-                <a href="./pages/minecraft_skin.html">我的Minecraft皮肤</a>
-                <a href="https://3667808244.github.io/lcy_webpage/html/index.html">
-                    lcy-lang(我自制的数据交换语言)</a>
-                <a href="./pages/test.html">测试页面(用于测试新的样式)</a>
-            </div>
-            <div class="block">
-                <h3>关于我</h3>
-                <p>初二生一枚</p>
-                <p>自学过python,vbs和Godot</p>
-                <p>Godot和vbs已经放弃了</p>
-                <p>最近在学rust</p>
-                <p>因为Python太™慢了</p>
-                <p>还有是听说rust有无性能损耗抽象</p>
-                <p>个人不爱写注释(除非是很复杂的代码)</p>
-                <p>如果有大量注释的代码都是deepseek写的</p>
-            </div>
-            <div class="block">
-                <h3>联系方式&其他网站的主页</h3>
-                <p>邮箱:3667808244@qq.com</p>
-                <p>QQ号:3667808244</p>
-                <p>bilibili:
-                    <a href="https://space.bilibili.com/2054732546?spm_id_from=333.1007.0.0" target="_blank">
-                        space.bilibili.com
-                    </a>
-                </p>
-                <p>Github:
-                    <a href="https://github.com/3667808244" target="_blank">
-                        github.com
-                    </a>
-                </p>
-                <p>littleskin:egglzh324</p>
-            </div>
-            <div class="block" id="describe">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/main/core.css" type="text/css">
+    <link rel="stylesheet" href="../css/main/other.css" type="text/css">
+    <link rel="icon" href="../img/icons/8px.png" type="image/png" sizes="8x8">
+    <link rel="icon" href="../img/icons/16px.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="../img/icons/32px.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="../img/icons/64px.png" type="image/png" sizes="64x64">
+</head>
+
+<body>
+    <!--root div-->
+    <div class="main" id="root">
+        <!--top bar-->
+        <div class="bar" id="header">
+            <p class="title">欢迎来到我的主页</p>
+            <p class="subtitle">by egglzh</p>
+        </div>
+        <div class="block" id="links">
+            <h3>一些链接</h3>
+            <ul>
+                <li><a href="./pages/log.html">我的日志</a></li>
+                <li><a href="./pages/videos.html">我的视频</a></li>
+                <li><a href="./pages/minecraft_skin.html">我的Minecraft皮肤</a></li>
+                <li><a href="https://3667808244.github.io/lcy_webpage/html/index.html">
+                        lcy-lang(我自制的数据交换语言)</a></li>
+                <li><a href="./pages/test.html">测试页面(用于测试新的样式)</a></li>
+                <li><a href="./pages/dev_log.html">开发日志</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h3>关于我</h3>
+            <p>初二生一枚</p>
+            <p>自学过python,vbs和Godot</p>
+            <p>Godot和vbs已经放弃了</p>
+            <p>&nbsp;</p>
+            <p>最近在学rust</p>
+            <p>因为Python太™慢了</p>
+            <p>还有是听说rust有无性能损耗抽象</p>
+            <p>&nbsp;</p>
+            <p>个人不爱写注释(除非是很复杂的代码)</p>
+            <p>如果有大量注释的代码都是deepseek写的</p>
+        </div>
+        <div class="block" id="describe">
             <h3>一些说明</h3>
+            <p>这个网页是我的第一个html项目</p>
             <p>这个网页风格参考Python Modules Docs</p>
             <p>本网页仅使用HTML、CSS和JavaScript</p>
+            <p>&nbsp;</p>
             <p>这个网页使用了Flex</p>
             <p>虽然但是Flex只在标题栏发挥作用</p>
             <p>暂未使用框架,考虑以后使用Vue.js</p>
+            <p>&nbsp;</p>
             <p>没有交互也没有后端,纯客户端</p>
             <p>目前没有动效</p>
             <p>动效短期内不会有</p>
             <p>因为我还没学完JavaScript😅</p>
-            </div>
-            <div class="kan_bu_jian_wo">
-                <p>原神真好玩</p>
-                <p>竟然被你看见了</p>
-                <!--竟然被你看见了-->
-            </div>
         </div>
-    </body>
+        <div class="block">
+            <h3>联系方式&其他网站的主页</h3>
+            <p>邮箱:3667808244@qq.com</p>
+            <p>QQ号:3667808244</p>
+            <p>bilibili:
+                <a href="https://space.bilibili.com/2054732546?spm_id_from=333.1007.0.0" target="_blank">
+                    space.bilibili.com
+                </a>
+            </p>
+            <p>Github:
+                <a href="https://github.com/3667808244" target="_blank">
+                    github.com
+                </a>
+            </p>
+            <p>littleskin:egglzh324</p>
+        </div>
+        <div class="kan_bu_jian_wo">
+            <p>原神真好玩</p>
+            <p>竟然被你看见了</p>
+            <!--竟然被你看见了-->
+        </div>
+    </div>
+</body>
+
 </html>
