@@ -5,38 +5,39 @@ div.main#root>div.block code {
     font-family: '../font/JetBrainsMono-Italic', Consolas, 'Courier New', monospace;
     color: white;
     width: max-content;
+    min-width: 160px;
 }
 
 div.main#root>div.block code.r {
-    background-color: rgb(116, 63, 63);
+    background-color: rgb(70, 38, 38);
 }
 
 div.main#root>div.block code.g {
-    background-color: rgb(47, 92, 47);
+    background-color: rgb(24, 46, 24);
 }
 
 div.main#root>div.block code.b {
-    background-color: rgb(38, 38, 85);
+    background-color: rgb(22, 22, 49);
 }
 
 div.main#root>div.block code.y {
-    background-color: rgb(110, 110, 0);
+    background-color: rgb(61, 61, 10);
 }
 
 div.main#root>div.block code.p {
-    background-color: rgb(90, 47, 90);
+    background-color: rgb(63, 33, 63);
 }
 
 div.main#root>div.block code.c {
-    background-color: rgb(37, 103, 103);
+    background-color: rgb(20, 56, 56);
 }
 
 div.main#root>div.block code.o {
-    background-color: rgb(99, 74, 30);
+    background-color: rgb(54, 42, 20);
 }
 
 div.main#root>div.block code.ga {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(27, 27, 27);
 }
 
 div.main#root>div.block code fc {
