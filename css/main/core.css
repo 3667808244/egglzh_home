@@ -60,3 +60,17 @@ div.main#root>div.block *{
     width: max-content;
     margin: 1px;
 }
+
+
+div.main#root>div.block ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+div.main#root>div.block ul>li {
+    padding: 2px;
+    margin-bottom: 3px;
+    border-left: 5px solid rgb(108, 108, 108);
+    background-color: rgba(131, 131, 131, 0.233);
+    border-radius: 0 8px 8px 0;
+}
