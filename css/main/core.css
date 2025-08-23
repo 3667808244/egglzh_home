@@ -53,7 +53,7 @@ div.main#root div.block{
     align-items: stretch;
     justify-content: flex-start;
     font-size: 24px;
-    padding-left: 1px;
+    padding: 1px;
 }
 
 div.main#root>div.block *{
@@ -72,5 +72,4 @@ div.main#root>div.block ul>li {
     margin-bottom: 3px;
     border-left: 5px solid rgb(108, 108, 108);
     background-color: rgba(131, 131, 131, 0.233);
-    border-radius: 0 8px 8px 0;
 }
